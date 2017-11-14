@@ -1,0 +1,8 @@
+  <ul>
+    {{#each users}}
+      <li>
+ 		<input type="checkbox" {{#if this.status}}checked{{/if}}>
+ 		<span class="{{#if this.status}}checked{{/if}}">{{this.text}}</span>
+      </li>
+    {{/each}}
+  </ul>

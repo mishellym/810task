@@ -1,0 +1,7 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-14T00:58:28.004Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-14T00:58:28.023Z"}
+{"level":"info","message":"Creating HTTP server on port: undefined","timestamp":"2017-11-14T00:58:28.024Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-14T00:58:28.030Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-14T00:58:28.032Z"}
+{"level":"info","message":"Creating HTTP server on port: undefined","timestamp":"2017-11-14T00:58:28.032Z"}
+{"level":"info","message":"HTTP Server listening on port: undefined, in development mode","timestamp":"2017-11-14T00:58:28.034Z"}
