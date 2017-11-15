@@ -48,16 +48,24 @@ module.exports = function (app, config) {
 
   app.use(express.static(config.root + '/public'));
   
+// Error handeling at the end of route chain
+// First display route not found.
+//
     app.use(function (req, res) {
       res.type('text/plan');
       res.status(404);
       res.send('404 Not Found');
     });
-  
+ 
+// If test mode then show us the error stack in the console log
+// 
     app.use(function (err, req, res, next) {
       if(process.env.NODE_ENV !== 'test') {
       console.error(err.stack);
     }
+
+// else just bail out and display a general error
+//
       res.type('text/plan');
       res.status(500);
       res.send('500 Sever Error');  
